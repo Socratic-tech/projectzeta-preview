@@ -19,7 +19,7 @@
  * TO PROMOTE THIS BUILD TO PRODUCTION: set VT_ENV to "".
  * That is the whole diff. It drops the prefix and the banner.
  ************************************************************/
-const VT_ENV = "";
+const VT_ENV = "PREVIEW";
 
 function vtKey(name) { return VT_ENV ? VT_ENV + ":" + name : name; }
 
@@ -40,10 +40,10 @@ if (VT_ENV) {
     });
 }
 </script>
-    <script src="demo-backend.js"></script>
-    <script src="complexity.js"></script>
-    <script src="tracker-switcher.js"></script>
-<script src="accessibility.js"></script>
+    <script src="demo-backend.js?v=db37169"></script>
+    <script src="complexity.js?v=db37169"></script>
+    <script src="tracker-switcher.js?v=db37169"></script>
+<script src="accessibility.js?v=db37169"></script>
 </head>
 
 <body class="bg-slate-100 font-sans">
